@@ -1,4 +1,10 @@
-import { SquaresFour, Chat, Users, SignIn, UserPlus, ShoppingBagOpen, ShoppingCart } from "phosphor-react";
+import { SquaresFour, Chat, Users, SignIn, UserPlus,TreePalm, ShoppingBagOpen, ShoppingCart } from "phosphor-react";
+import { FaLayerGroup } from "react-icons/fa6";
+import { MdBrandingWatermark, MdOutlineWifiProtectedSetup } from "react-icons/md";
+import { BiCategoryAlt } from "react-icons/bi";
+import { PiSubtractSquareFill } from "react-icons/pi";
+import { IoIosColorPalette } from "react-icons/io";
+import { RiFontSize } from "react-icons/ri";
 
 export const sidebar = [
      {
@@ -9,39 +15,45 @@ export const sidebar = [
      },
      {
           id: 2,
-          name: 'brand',
+          name: 'Setup',
           path: "/product",
-          Icon: <ShoppingCart size={24} />,
+          Icon: <MdOutlineWifiProtectedSetup size={24} />,
           sub: [
                {
                     id: 3,
-                    name: 'Inbox',
-                    path: "/inbox",
-                    Icon: <Chat size={24} ></Chat>
+                    name: 'group',
+                    path: "/group",
+                    Icon: <FaLayerGroup />
                },
                {
                     id: 4,
-                    name: 'product',
-                    path: "/product",
-                    Icon: <ShoppingBagOpen size={24}></ShoppingBagOpen>
+                    name: 'brand',
+                    path: "/brand",
+                    Icon: <MdBrandingWatermark size={24} />
                },
                {
                     id: 5,
-                    name: 'user',
-                    path: "/user",
-                    Icon: <Users size={24}></Users>
+                    name: 'category',
+                    path: "/category",
+                    Icon: <BiCategoryAlt size={24} />
                },
                {
                     id: 6,
-                    name: 'Sign In',
-                    path: "/sign",
-                    Icon: <SignIn size={24}></SignIn>
+                    name: 'sub category',
+                    path: "/sub-category",
+                    Icon: <PiSubtractSquareFill size={24} />
                },
                {
                     id: 7,
-                    name: ' Sign Up',
-                    path: "/login",
-                    Icon: <UserPlus size={24}></UserPlus>
+                    name: ' color',
+                    path: "/color",
+                    Icon: <IoIosColorPalette size={24} />
+               },
+               {
+                    id: 7,
+                    name: ' size',
+                    path: "/size",
+                    Icon: <RiFontSize size={24} />
                }
           ]
      },

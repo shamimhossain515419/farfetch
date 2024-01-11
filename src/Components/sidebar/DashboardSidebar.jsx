@@ -8,7 +8,6 @@ const DashboardSidebar = () => {
      const { value } = useSelector(state => state.sidebarToggle);
 
      return (
-
           <div className={`${value ? "block w-full sm:w-[360px]   left-0 fixed  " : "hidden"}  -ml-[3px]  -mt-[22px]  left-0  lg:relative bg-white  lg:block lg:w-[360px] overflow-hidden z-20 `}>
                <div className={` shadow-md h-screen  w-full left-0 sm:w-[250px] duration-500  bg-white fixed    px-1 `} >
 
