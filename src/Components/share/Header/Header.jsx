@@ -24,7 +24,7 @@ const Header = () => {
 
 
                               </div>
-                              <h1 className=' text-[22px] md:text-[30px] text-[#1C222B] font-medium'> Admin   <span className=' font-normal'>Logo</span></h1>
+                              <Link href={'/'} className=' text-[22px] md:text-[30px] text-[#1C222B] font-medium'> Admin   <span className=' font-normal'>Logo</span></Link>
                          </Navbar.Brand>
 
 
