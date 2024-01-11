@@ -11,3 +11,8 @@
 .primary_bg{
      background-color: #38BDF8;
 }
+
+
+.ReactCollapse--collapse {
+     transition: height 500ms;
+   }
