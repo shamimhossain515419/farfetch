@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ReduxProvider>
           <Header></Header>
-          <div className=' flex items-start gap-2 pt-16'>
+          <div className=' flex items-start  pt-16'>
 
             <DashboardSidebar></DashboardSidebar>
 

@@ -15,12 +15,12 @@ import { useDispatch, useSelector } from "react-redux";
 
 const DashboardSidebar = () => {
      const { value } = useSelector(state => state.sidebarToggle);
-     const dispatch = useDispatch();
+     
      return (
 
-          <div className={` w-[250px] z-20`}>
-               <div className={` shadow-md h-screen  w-[250px] duration-500   fixed    px-1 `} >
-                    <Sidebar aria-label="Sidebar with multi-level dropdown example">
+          <div className={`${value ? "block w-full sm:w-[360px]   left-0 fixed  mt-0" : "hidden"}  -ml-[3px]  -mt-[22px]  left-0  lg:relative bg-white  lg:block lg:w-[360px] overflow-hidden z-20 `}>
+               <div className={` shadow-md h-screen  w-full left-0 sm:w-[250px] duration-500   fixed    px-1 `} >
+                    <Sidebar aria-label="Sidebar with multi-level dropdown example" className=" pt-2">
                          <Sidebar.Items>
                               <Sidebar.ItemGroup>
                                    <Sidebar.Item href="#" icon={<SquaresFour size={24} />}>
