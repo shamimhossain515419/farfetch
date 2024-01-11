@@ -47,7 +47,7 @@ const SidebarCard = ({ item }) => {
                                    <span className="h-6 w-6 flex-shrink-0 text-metal-500 transition duration-75 group-hover:text-metal-900" >
                                         {item.Icon}
                                    </span>
-                                   <Link class=" flex-1   capitalize whitespace-nowrap" href={item?.path}> {item?.name} </Link>
+                                   <Link class=" flex-1 capitalize whitespace-nowrap" href={item?.path}> {item?.name} </Link>
                               </div>
                          }
                     </div>

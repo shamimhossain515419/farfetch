@@ -4,7 +4,7 @@ export const sidebar = [
      {
           id: 1,
           name: 'dashboard',
-          path: "/dashboard",
+          path: "/",
           Icon: <SquaresFour size={24}></SquaresFour>
      },
      {
@@ -21,8 +21,8 @@ export const sidebar = [
                },
                {
                     id: 4,
-                    name: 'products',
-                    path: "/products",
+                    name: 'product',
+                    path: "/product",
                     Icon: <ShoppingBagOpen size={24}></ShoppingBagOpen>
                },
                {
@@ -54,8 +54,8 @@ export const sidebar = [
      },
      {
           id: 4,
-          name: 'Products',
-          path: "/Products",
+          name: 'product',
+          path: "/product",
           Icon: <ShoppingBagOpen size={24}></ShoppingBagOpen>
      },
      {
